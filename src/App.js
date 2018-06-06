@@ -98,7 +98,9 @@ class App extends Component {
     this.showAddress = this.showAddress.bind(this);
   }
 
-  componentDidMount(){}
+  componentDidMount(){
+    this.search('000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214');
+  }
 
   search(text){
     let _this = this;
@@ -149,9 +151,10 @@ class App extends Component {
       <div className="App">
         <Row>
           <Input.Search
+            defaultValue='000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214'
             placeholder="input search text"
             onSearch={this.search}
-            style={{ width: 400 }}
+            style={{ width: 300 }}
           />
         </Row>
         <Row style={{margin:'30px 0',textAlign: 'center'}}>
@@ -219,7 +222,6 @@ class App extends Component {
             defaultExpandAllRows={true}
           />
         </Row>
-
       </div>
     );
   }

@@ -1,5 +1,5 @@
 {
-  "name": "abt_code",
+  "name": "arcb-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,13 +15,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "babel-jest": "^23.0.1",
     "babel-plugin-import": "^1.7.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "jest": "^23.1.0",
-    "jest-cli": "^23.1.0",
-    "react-addons-test-utils": "^15.6.2",
+    "enzyme": "^3.3.0",
     "react-app-rewired": "^1.5.2",
     "react-test-renderer": "^16.4.0"
   }
