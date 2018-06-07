@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import { Button, Table, Input, Row, Col, notification, Switch } from 'antd';
+import { Button, Table, Input, Row, Col, Switch } from 'antd';
+import SummaryTable from './SummaryTable';
+import getData from './fetch_data';
 import './App.css';
+
+const Search = Input.Search;
 
 const math_add = (arg1, arg2) => {
     let r1, r2, m, c;
@@ -91,37 +95,25 @@ class App extends Component {
   constructor(){
     super(...arguments);
     this.state = {
-      datas: [],
+      datas: {},
       showAddress: false
     };
     this.search = this.search.bind(this);
     this.showAddress = this.showAddress.bind(this);
   }
 
-  componentDidMount(){
-    this.search('000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214');
-  }
+  componentDidMount(){}
 
   search(text){
     let _this = this;
-    _this.setState({
-      datas: {}
+    getData(text).then((datas)=>{
+      datas.tx && datas.tx.length > 0 ? datas.tx.map((e,i)=>{
+        e.key = i;
+      }) : null
+      _this.setState({
+        datas: datas
+      });
     });
-    let url = `https://webbtc.com/block/${text}.json`;
-    fetch( url ).then( json => {
-      if(json.status === 200){
-        json.text().then( responseText => {
-          _this.setState({
-            datas: JSON.parse(responseText)
-          });
-        });
-      }else{
-        notification.error({
-          message: 'error',
-          description: '请求失败'
-        });
-      }
-    })
   }
 
   showAddress(show){
@@ -150,11 +142,11 @@ class App extends Component {
     return (
       <div className="App">
         <Row>
-          <Input.Search
-            defaultValue='000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214'
+          <Search
+            // defaultValue='000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214'
             placeholder="input search text"
             onSearch={this.search}
-            style={{ width: 300 }}
+            style={{ width: showAddress ? 600 : 300 }}
           />
         </Row>
         <Row style={{margin:'30px 0',textAlign: 'center'}}>
@@ -167,52 +159,9 @@ class App extends Component {
         </Row>
         <Row style={{margin:'30px 0',textAlign: 'center'}}>
           <Col span={24}>
-            <table className='summary_table'>
-              <thead>
-                <tr>
-                  <td>summary</td>
-                  <td></td>
-                  <td>hash</td>
-                  <td></td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className='key'>time</td>
-                  <td>{datas.time ? new Date(datas.time*1000).toLocaleString() : ''}</td>
-                  <td className='key'>hash</td>
-                  <td><div style={long_value_style}>{datas.hash}</div></td>
-                </tr>
-                <tr>
-                  <td className='key'>nonce</td>
-                  <td>{datas.nonce || ''}</td>
-                  <td className='key'>prev_block</td>
-                  <td><div style={long_value_style}>{datas.prev_block}</div></td>
-                </tr>
-                <tr>
-                  <td className='key'>size</td>
-                  <td>{datas.size || ''}</td>
-                  <td className='key'>next_block</td>
-                  <td><div style={long_value_style}>{datas.next_block}</div></td>
-                </tr>
-                <tr>
-                  <td className='key'>bits</td>
-                  <td>{datas.bits || ''}</td>
-                  <td className='key'>mrkl_root</td>
-                  <td><div style={long_value_style}>{datas.mrkl_root}</div></td>
-                </tr>
-                <tr>
-                  <td className='key'>ver</td>
-                  <td>{datas.ver || ''}</td>
-                  <td className='key'>n_tx</td>
-                  <td><div style={long_value_style}>{datas.n_tx}</div></td>
-                </tr>
-              </tbody>
-            </table>
+            <SummaryTable class='SummaryTable' datas={datas} long_value_style={long_value_style}  />
           </Col>
-          
         </Row>
-
         <Row>
           <Table
             className="components-table-demo-nested"
