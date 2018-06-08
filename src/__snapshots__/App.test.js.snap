@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> should render <App /> correctly 1`] = `
+exports[`<App /> should render Components correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -730,4 +730,2393 @@ ShallowWrapper {
     },
   },
 }
+`;
+
+exports[`<App /> should render Components correctly 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SummaryTable />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+                    <td>
+                              summary
+                    </td>
+                    <td />
+                    <td>
+                              hash
+                    </td>
+                    <td />
+          </tr>
+</thead>,
+        <tbody>
+          <tr>
+                    <td
+                              className="key"
+                    >
+                              time
+                    </td>
+                    <td />
+                    <td
+                              className="key"
+                    >
+                              hash
+                    </td>
+                    <td>
+                              <div
+                                        style={undefined}
+                              />
+                    </td>
+          </tr>
+          <tr>
+                    <td
+                              className="key"
+                    >
+                              nonce
+                    </td>
+                    <td />
+                    <td
+                              className="key"
+                    >
+                              prev_block
+                    </td>
+                    <td>
+                              <div
+                                        style={undefined}
+                              />
+                    </td>
+          </tr>
+          <tr>
+                    <td
+                              className="key"
+                    >
+                              size
+                    </td>
+                    <td />
+                    <td
+                              className="key"
+                    >
+                              next_block
+                    </td>
+                    <td>
+                              <div
+                                        style={undefined}
+                              />
+                    </td>
+          </tr>
+          <tr>
+                    <td
+                              className="key"
+                    >
+                              bits
+                    </td>
+                    <td />
+                    <td
+                              className="key"
+                    >
+                              mrkl_root
+                    </td>
+                    <td>
+                              <div
+                                        style={undefined}
+                              />
+                    </td>
+          </tr>
+          <tr>
+                    <td
+                              className="key"
+                    >
+                              ver
+                    </td>
+                    <td />
+                    <td
+                              className="key"
+                    >
+                              n_tx
+                    </td>
+                    <td>
+                              <div
+                                        style={undefined}
+                              />
+                    </td>
+          </tr>
+</tbody>,
+      ],
+      "className": "summary_table",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <td>
+                        summary
+            </td>
+            <td />
+            <td>
+                        hash
+            </td>
+            <td />
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                summary
+</td>,
+              <td />,
+              <td>
+                hash
+</td>,
+              <td />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "summary",
+              },
+              "ref": null,
+              "rendered": "summary",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "hash",
+              },
+              "ref": null,
+              "rendered": "hash",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <td
+                            className="key"
+              >
+                            time
+              </td>
+              <td />
+              <td
+                            className="key"
+              >
+                            hash
+              </td>
+              <td>
+                            <div
+                                          style={undefined}
+                            />
+              </td>
+</tr>,
+            <tr>
+              <td
+                            className="key"
+              >
+                            nonce
+              </td>
+              <td />
+              <td
+                            className="key"
+              >
+                            prev_block
+              </td>
+              <td>
+                            <div
+                                          style={undefined}
+                            />
+              </td>
+</tr>,
+            <tr>
+              <td
+                            className="key"
+              >
+                            size
+              </td>
+              <td />
+              <td
+                            className="key"
+              >
+                            next_block
+              </td>
+              <td>
+                            <div
+                                          style={undefined}
+                            />
+              </td>
+</tr>,
+            <tr>
+              <td
+                            className="key"
+              >
+                            bits
+              </td>
+              <td />
+              <td
+                            className="key"
+              >
+                            mrkl_root
+              </td>
+              <td>
+                            <div
+                                          style={undefined}
+                            />
+              </td>
+</tr>,
+            <tr>
+              <td
+                            className="key"
+              >
+                            ver
+              </td>
+              <td />
+              <td
+                            className="key"
+              >
+                            n_tx
+              </td>
+              <td>
+                            <div
+                                          style={undefined}
+                            />
+              </td>
+</tr>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  className="key"
+>
+                  time
+</td>,
+                <td />,
+                <td
+                  className="key"
+>
+                  hash
+</td>,
+                <td>
+                  <div
+                                    style={undefined}
+                  />
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "time",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "time",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "hash",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "hash",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    style={undefined}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                    "style": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "div",
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  className="key"
+>
+                  nonce
+</td>,
+                <td />,
+                <td
+                  className="key"
+>
+                  prev_block
+</td>,
+                <td>
+                  <div
+                                    style={undefined}
+                  />
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "nonce",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "nonce",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "prev_block",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "prev_block",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    style={undefined}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                    "style": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "div",
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  className="key"
+>
+                  size
+</td>,
+                <td />,
+                <td
+                  className="key"
+>
+                  next_block
+</td>,
+                <td>
+                  <div
+                                    style={undefined}
+                  />
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "size",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "size",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "next_block",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "next_block",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    style={undefined}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                    "style": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "div",
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  className="key"
+>
+                  bits
+</td>,
+                <td />,
+                <td
+                  className="key"
+>
+                  mrkl_root
+</td>,
+                <td>
+                  <div
+                                    style={undefined}
+                  />
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "bits",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "bits",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "mrkl_root",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "mrkl_root",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    style={undefined}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                    "style": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "div",
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  className="key"
+>
+                  ver
+</td>,
+                <td />,
+                <td
+                  className="key"
+>
+                  n_tx
+</td>,
+                <td>
+                  <div
+                                    style={undefined}
+                  />
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ver",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "ver",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "n_tx",
+                  "className": "key",
+                },
+                "ref": null,
+                "rendered": "n_tx",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    style={undefined}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                    "style": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "div",
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+                        <td>
+                                    summary
+                        </td>
+                        <td />
+                        <td>
+                                    hash
+                        </td>
+                        <td />
+            </tr>
+</thead>,
+          <tbody>
+            <tr>
+                        <td
+                                    className="key"
+                        >
+                                    time
+                        </td>
+                        <td />
+                        <td
+                                    className="key"
+                        >
+                                    hash
+                        </td>
+                        <td>
+                                    <div
+                                                style={undefined}
+                                    />
+                        </td>
+            </tr>
+            <tr>
+                        <td
+                                    className="key"
+                        >
+                                    nonce
+                        </td>
+                        <td />
+                        <td
+                                    className="key"
+                        >
+                                    prev_block
+                        </td>
+                        <td>
+                                    <div
+                                                style={undefined}
+                                    />
+                        </td>
+            </tr>
+            <tr>
+                        <td
+                                    className="key"
+                        >
+                                    size
+                        </td>
+                        <td />
+                        <td
+                                    className="key"
+                        >
+                                    next_block
+                        </td>
+                        <td>
+                                    <div
+                                                style={undefined}
+                                    />
+                        </td>
+            </tr>
+            <tr>
+                        <td
+                                    className="key"
+                        >
+                                    bits
+                        </td>
+                        <td />
+                        <td
+                                    className="key"
+                        >
+                                    mrkl_root
+                        </td>
+                        <td>
+                                    <div
+                                                style={undefined}
+                                    />
+                        </td>
+            </tr>
+            <tr>
+                        <td
+                                    className="key"
+                        >
+                                    ver
+                        </td>
+                        <td />
+                        <td
+                                    className="key"
+                        >
+                                    n_tx
+                        </td>
+                        <td>
+                                    <div
+                                                style={undefined}
+                                    />
+                        </td>
+            </tr>
+</tbody>,
+        ],
+        "className": "summary_table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <td>
+                            summary
+              </td>
+              <td />
+              <td>
+                            hash
+              </td>
+              <td />
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  summary
+</td>,
+                <td />,
+                <td>
+                  hash
+</td>,
+                <td />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "summary",
+                },
+                "ref": null,
+                "rendered": "summary",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "hash",
+                },
+                "ref": null,
+                "rendered": "hash",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <td
+                                className="key"
+                >
+                                time
+                </td>
+                <td />
+                <td
+                                className="key"
+                >
+                                hash
+                </td>
+                <td>
+                                <div
+                                                style={undefined}
+                                />
+                </td>
+</tr>,
+              <tr>
+                <td
+                                className="key"
+                >
+                                nonce
+                </td>
+                <td />
+                <td
+                                className="key"
+                >
+                                prev_block
+                </td>
+                <td>
+                                <div
+                                                style={undefined}
+                                />
+                </td>
+</tr>,
+              <tr>
+                <td
+                                className="key"
+                >
+                                size
+                </td>
+                <td />
+                <td
+                                className="key"
+                >
+                                next_block
+                </td>
+                <td>
+                                <div
+                                                style={undefined}
+                                />
+                </td>
+</tr>,
+              <tr>
+                <td
+                                className="key"
+                >
+                                bits
+                </td>
+                <td />
+                <td
+                                className="key"
+                >
+                                mrkl_root
+                </td>
+                <td>
+                                <div
+                                                style={undefined}
+                                />
+                </td>
+</tr>,
+              <tr>
+                <td
+                                className="key"
+                >
+                                ver
+                </td>
+                <td />
+                <td
+                                className="key"
+                >
+                                n_tx
+                </td>
+                <td>
+                                <div
+                                                style={undefined}
+                                />
+                </td>
+</tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    className="key"
+>
+                    time
+</td>,
+                  <td />,
+                  <td
+                    className="key"
+>
+                    hash
+</td>,
+                  <td>
+                    <div
+                                        style={undefined}
+                    />
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "time",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "time",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "hash",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "hash",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      style={undefined}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "style": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "div",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    className="key"
+>
+                    nonce
+</td>,
+                  <td />,
+                  <td
+                    className="key"
+>
+                    prev_block
+</td>,
+                  <td>
+                    <div
+                                        style={undefined}
+                    />
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "nonce",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "nonce",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "prev_block",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "prev_block",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      style={undefined}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "style": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "div",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    className="key"
+>
+                    size
+</td>,
+                  <td />,
+                  <td
+                    className="key"
+>
+                    next_block
+</td>,
+                  <td>
+                    <div
+                                        style={undefined}
+                    />
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "size",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "size",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "next_block",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "next_block",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      style={undefined}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "style": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "div",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    className="key"
+>
+                    bits
+</td>,
+                  <td />,
+                  <td
+                    className="key"
+>
+                    mrkl_root
+</td>,
+                  <td>
+                    <div
+                                        style={undefined}
+                    />
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "bits",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "bits",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "mrkl_root",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "mrkl_root",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      style={undefined}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "style": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "div",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td
+                    className="key"
+>
+                    ver
+</td>,
+                  <td />,
+                  <td
+                    className="key"
+>
+                    n_tx
+</td>,
+                  <td>
+                    <div
+                                        style={undefined}
+                    />
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ver",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "ver",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "n_tx",
+                    "className": "key",
+                  },
+                  "ref": null,
+                  "rendered": "n_tx",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      style={undefined}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "style": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "div",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<App /> should render Components correctly 3`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Row
+          gutter={0}
+>
+          <Search
+                    enterButton={false}
+                    inputPrefixCls="ant-input"
+                    onSearch={[Function]}
+                    placeholder="input search text"
+                    prefixCls="ant-input-search"
+                    style={
+                              Object {
+                                        "width": 300,
+                                      }
+                    }
+          />
+</Row>,
+        <Row
+          gutter={0}
+          style={
+                    Object {
+                              "margin": "30px 0",
+                              "textAlign": "center",
+                            }
+          }
+>
+          是否展示完整地址：
+          <Switch
+                    checkedChildren="是"
+                    onChange={[Function]}
+                    prefixCls="ant-switch"
+                    unCheckedChildren="否"
+          />
+</Row>,
+        <Row
+          gutter={0}
+          style={
+                    Object {
+                              "margin": "30px 0",
+                              "textAlign": "center",
+                            }
+          }
+>
+          <Col
+                    span={24}
+          >
+                    <SummaryTable
+                              class="SummaryTable"
+                              datas={Object {}}
+                              long_value_style={
+                                        Object {
+                                                  "overflow": "hidden",
+                                                  "textOverflow": "ellipsis",
+                                                  "whiteSpace": "nowrap",
+                                                  "width": "250px",
+                                                }
+                              }
+                    />
+          </Col>
+</Row>,
+        <Row
+          gutter={0}
+>
+          <Table
+                    bordered={false}
+                    className="components-table-demo-nested"
+                    columns={
+                              Array [
+                                        Object {
+                                          "dataIndex": "hash",
+                                          "key": "hash",
+                                          "render": [Function],
+                                          "title": "hash",
+                                        },
+                                        Object {
+                                          "dataIndex": "size",
+                                          "key": "size",
+                                          "render": [Function],
+                                          "title": "size",
+                                        },
+                                        Object {
+                                          "dataIndex": "nid",
+                                          "key": "nid",
+                                          "render": [Function],
+                                          "title": "nid",
+                                        },
+                                      ]
+                    }
+                    dataSource={Array []}
+                    defaultExpandAllRows={true}
+                    expandedRowRender={[Function]}
+                    indentSize={20}
+                    loading={false}
+                    locale={Object {}}
+                    prefixCls="ant-table"
+                    rowKey="key"
+                    showHeader={true}
+                    size="large"
+                    useFixedHeader={false}
+          />
+</Row>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Search
+            enterButton={false}
+            inputPrefixCls="ant-input"
+            onSearch={[Function]}
+            placeholder="input search text"
+            prefixCls="ant-input-search"
+            style={
+                        Object {
+                                    "width": 300,
+                                  }
+            }
+/>,
+          "gutter": 0,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "enterButton": false,
+            "inputPrefixCls": "ant-input",
+            "onSearch": [Function],
+            "placeholder": "input search text",
+            "prefixCls": "ant-input-search",
+            "style": Object {
+              "width": 300,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "是否展示完整地址：",
+            <Switch
+              checkedChildren="是"
+              onChange={[Function]}
+              prefixCls="ant-switch"
+              unCheckedChildren="否"
+/>,
+          ],
+          "gutter": 0,
+          "style": Object {
+            "margin": "30px 0",
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          "是否展示完整地址：",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checkedChildren": "是",
+              "onChange": [Function],
+              "prefixCls": "ant-switch",
+              "unCheckedChildren": "否",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Col
+            span={24}
+>
+            <SummaryTable
+                        class="SummaryTable"
+                        datas={Object {}}
+                        long_value_style={
+                                    Object {
+                                                "overflow": "hidden",
+                                                "textOverflow": "ellipsis",
+                                                "whiteSpace": "nowrap",
+                                                "width": "250px",
+                                              }
+                        }
+            />
+</Col>,
+          "gutter": 0,
+          "style": Object {
+            "margin": "30px 0",
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <SummaryTable
+              class="SummaryTable"
+              datas={Object {}}
+              long_value_style={
+                            Object {
+                                          "overflow": "hidden",
+                                          "textOverflow": "ellipsis",
+                                          "whiteSpace": "nowrap",
+                                          "width": "250px",
+                                        }
+              }
+/>,
+            "span": 24,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "class": "SummaryTable",
+              "datas": Object {},
+              "long_value_style": Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "250px",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Table
+            bordered={false}
+            className="components-table-demo-nested"
+            columns={
+                        Array [
+                                    Object {
+                                      "dataIndex": "hash",
+                                      "key": "hash",
+                                      "render": [Function],
+                                      "title": "hash",
+                                    },
+                                    Object {
+                                      "dataIndex": "size",
+                                      "key": "size",
+                                      "render": [Function],
+                                      "title": "size",
+                                    },
+                                    Object {
+                                      "dataIndex": "nid",
+                                      "key": "nid",
+                                      "render": [Function],
+                                      "title": "nid",
+                                    },
+                                  ]
+            }
+            dataSource={Array []}
+            defaultExpandAllRows={true}
+            expandedRowRender={[Function]}
+            indentSize={20}
+            loading={false}
+            locale={Object {}}
+            prefixCls="ant-table"
+            rowKey="key"
+            showHeader={true}
+            size="large"
+            useFixedHeader={false}
+/>,
+          "gutter": 0,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bordered": false,
+            "className": "components-table-demo-nested",
+            "columns": Array [
+              Object {
+                "dataIndex": "hash",
+                "key": "hash",
+                "render": [Function],
+                "title": "hash",
+              },
+              Object {
+                "dataIndex": "size",
+                "key": "size",
+                "render": [Function],
+                "title": "size",
+              },
+              Object {
+                "dataIndex": "nid",
+                "key": "nid",
+                "render": [Function],
+                "title": "nid",
+              },
+            ],
+            "dataSource": Array [],
+            "defaultExpandAllRows": true,
+            "expandedRowRender": [Function],
+            "indentSize": 20,
+            "loading": false,
+            "locale": Object {},
+            "prefixCls": "ant-table",
+            "rowKey": "key",
+            "showHeader": true,
+            "size": "large",
+            "useFixedHeader": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Row
+            gutter={0}
+>
+            <Search
+                        enterButton={false}
+                        inputPrefixCls="ant-input"
+                        onSearch={[Function]}
+                        placeholder="input search text"
+                        prefixCls="ant-input-search"
+                        style={
+                                    Object {
+                                                "width": 300,
+                                              }
+                        }
+            />
+</Row>,
+          <Row
+            gutter={0}
+            style={
+                        Object {
+                                    "margin": "30px 0",
+                                    "textAlign": "center",
+                                  }
+            }
+>
+            是否展示完整地址：
+            <Switch
+                        checkedChildren="是"
+                        onChange={[Function]}
+                        prefixCls="ant-switch"
+                        unCheckedChildren="否"
+            />
+</Row>,
+          <Row
+            gutter={0}
+            style={
+                        Object {
+                                    "margin": "30px 0",
+                                    "textAlign": "center",
+                                  }
+            }
+>
+            <Col
+                        span={24}
+            >
+                        <SummaryTable
+                                    class="SummaryTable"
+                                    datas={Object {}}
+                                    long_value_style={
+                                                Object {
+                                                            "overflow": "hidden",
+                                                            "textOverflow": "ellipsis",
+                                                            "whiteSpace": "nowrap",
+                                                            "width": "250px",
+                                                          }
+                                    }
+                        />
+            </Col>
+</Row>,
+          <Row
+            gutter={0}
+>
+            <Table
+                        bordered={false}
+                        className="components-table-demo-nested"
+                        columns={
+                                    Array [
+                                                Object {
+                                                  "dataIndex": "hash",
+                                                  "key": "hash",
+                                                  "render": [Function],
+                                                  "title": "hash",
+                                                },
+                                                Object {
+                                                  "dataIndex": "size",
+                                                  "key": "size",
+                                                  "render": [Function],
+                                                  "title": "size",
+                                                },
+                                                Object {
+                                                  "dataIndex": "nid",
+                                                  "key": "nid",
+                                                  "render": [Function],
+                                                  "title": "nid",
+                                                },
+                                              ]
+                        }
+                        dataSource={Array []}
+                        defaultExpandAllRows={true}
+                        expandedRowRender={[Function]}
+                        indentSize={20}
+                        loading={false}
+                        locale={Object {}}
+                        prefixCls="ant-table"
+                        rowKey="key"
+                        showHeader={true}
+                        size="large"
+                        useFixedHeader={false}
+            />
+</Row>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Search
+              enterButton={false}
+              inputPrefixCls="ant-input"
+              onSearch={[Function]}
+              placeholder="input search text"
+              prefixCls="ant-input-search"
+              style={
+                            Object {
+                                          "width": 300,
+                                        }
+              }
+/>,
+            "gutter": 0,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "enterButton": false,
+              "inputPrefixCls": "ant-input",
+              "onSearch": [Function],
+              "placeholder": "input search text",
+              "prefixCls": "ant-input-search",
+              "style": Object {
+                "width": 300,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "是否展示完整地址：",
+              <Switch
+                checkedChildren="是"
+                onChange={[Function]}
+                prefixCls="ant-switch"
+                unCheckedChildren="否"
+/>,
+            ],
+            "gutter": 0,
+            "style": Object {
+              "margin": "30px 0",
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "是否展示完整地址：",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checkedChildren": "是",
+                "onChange": [Function],
+                "prefixCls": "ant-switch",
+                "unCheckedChildren": "否",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Col
+              span={24}
+>
+              <SummaryTable
+                            class="SummaryTable"
+                            datas={Object {}}
+                            long_value_style={
+                                          Object {
+                                                        "overflow": "hidden",
+                                                        "textOverflow": "ellipsis",
+                                                        "whiteSpace": "nowrap",
+                                                        "width": "250px",
+                                                      }
+                            }
+              />
+</Col>,
+            "gutter": 0,
+            "style": Object {
+              "margin": "30px 0",
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <SummaryTable
+                class="SummaryTable"
+                datas={Object {}}
+                long_value_style={
+                                Object {
+                                                "overflow": "hidden",
+                                                "textOverflow": "ellipsis",
+                                                "whiteSpace": "nowrap",
+                                                "width": "250px",
+                                              }
+                }
+/>,
+              "span": 24,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "class": "SummaryTable",
+                "datas": Object {},
+                "long_value_style": Object {
+                  "overflow": "hidden",
+                  "textOverflow": "ellipsis",
+                  "whiteSpace": "nowrap",
+                  "width": "250px",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Table
+              bordered={false}
+              className="components-table-demo-nested"
+              columns={
+                            Array [
+                                          Object {
+                                            "dataIndex": "hash",
+                                            "key": "hash",
+                                            "render": [Function],
+                                            "title": "hash",
+                                          },
+                                          Object {
+                                            "dataIndex": "size",
+                                            "key": "size",
+                                            "render": [Function],
+                                            "title": "size",
+                                          },
+                                          Object {
+                                            "dataIndex": "nid",
+                                            "key": "nid",
+                                            "render": [Function],
+                                            "title": "nid",
+                                          },
+                                        ]
+              }
+              dataSource={Array []}
+              defaultExpandAllRows={true}
+              expandedRowRender={[Function]}
+              indentSize={20}
+              loading={false}
+              locale={Object {}}
+              prefixCls="ant-table"
+              rowKey="key"
+              showHeader={true}
+              size="large"
+              useFixedHeader={false}
+/>,
+            "gutter": 0,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bordered": false,
+              "className": "components-table-demo-nested",
+              "columns": Array [
+                Object {
+                  "dataIndex": "hash",
+                  "key": "hash",
+                  "render": [Function],
+                  "title": "hash",
+                },
+                Object {
+                  "dataIndex": "size",
+                  "key": "size",
+                  "render": [Function],
+                  "title": "size",
+                },
+                Object {
+                  "dataIndex": "nid",
+                  "key": "nid",
+                  "render": [Function],
+                  "title": "nid",
+                },
+              ],
+              "dataSource": Array [],
+              "defaultExpandAllRows": true,
+              "expandedRowRender": [Function],
+              "indentSize": 20,
+              "loading": false,
+              "locale": Object {},
+              "prefixCls": "ant-table",
+              "rowKey": "key",
+              "showHeader": true,
+              "size": "large",
+              "useFixedHeader": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<App /> should render Components correctly 4`] = `
+<table
+  className="summary_table"
+>
+  <thead>
+    <tr>
+      <td>
+        summary
+      </td>
+      <td />
+      <td>
+        hash
+      </td>
+      <td />
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="key"
+      >
+        time
+      </td>
+      <td>
+        2016/12/18 上午4:26:24
+      </td>
+      <td
+        className="key"
+      >
+        hash
+      </td>
+      <td>
+        <div
+          style={
+            Object {
+              "width": "500px",
+            }
+          }
+        >
+          000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="key"
+      >
+        nonce
+      </td>
+      <td>
+        636041063
+      </td>
+      <td
+        className="key"
+      >
+        prev_block
+      </td>
+      <td>
+        <div
+          style={
+            Object {
+              "width": "500px",
+            }
+          }
+        >
+          000000000000000000f061205567dc79c4e718209a568879d66132e016968ac6
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="key"
+      >
+        size
+      </td>
+      <td>
+        6264
+      </td>
+      <td
+        className="key"
+      >
+        next_block
+      </td>
+      <td>
+        <div
+          style={
+            Object {
+              "width": "500px",
+            }
+          }
+        >
+          0000000000000000000cdc0d2a9b33c2d4b34b4d4fa8920f074338d0dc1164dc
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="key"
+      >
+        bits
+      </td>
+      <td>
+        402885509
+      </td>
+      <td
+        className="key"
+      >
+        mrkl_root
+      </td>
+      <td>
+        <div
+          style={
+            Object {
+              "width": "500px",
+            }
+          }
+        >
+          83f5fdf40b0b02c09ae669041df1bedfc635c45f696057a8c29e1bde1f4cbd24
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="key"
+      >
+        ver
+      </td>
+      <td>
+        536870914
+      </td>
+      <td
+        className="key"
+      >
+        n_tx
+      </td>
+      <td>
+        <div
+          style={
+            Object {
+              "width": "500px",
+            }
+          }
+        >
+          20
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
 `;

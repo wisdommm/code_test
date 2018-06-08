@@ -5,6 +5,7 @@ import getData from './fetch_data';
 import App from './App';
 import SummaryTable from './SummaryTable';
 import { Table, Input, Switch } from 'antd';
+import renderer from 'react-test-renderer';
 const Search = Input.Search;
 
 describe('<App />', () => {
@@ -44,7 +45,7 @@ describe('<App />', () => {
 	    expect(wrapper.state().showAddress).toBe(false);
 	});
 
-	it('click Switch', () => {
+	it('should change style by click Switch', () => {
 		const wrapper = mount(<App />);
 
 		expect( JSON.stringify( wrapper.find(Search).props().style ) ).toBe('{\"width\":300}');
@@ -58,22 +59,28 @@ describe('<App />', () => {
 		expect( JSON.stringify( wrapper.find(SummaryTable).props().long_value_style ) ).toBe('{\"width\":\"500px\"}');
 	});
 
-	it('should render <App /> correctly',() => {
+	it('should render Components correctly',() => {
 		const wrapper = shallow(<App />);
 
 		expect(wrapper).toMatchSnapshot();
 
+		const wrapper_table = shallow(<SummaryTable />);
+
+		expect(wrapper_table).toMatchSnapshot();
+
+		wrapper.setState(mock_data);
+
+		expect(wrapper).toMatchSnapshot();
+
+		const porps = {
+			datas: mock_data,
+			long_value_style: { width: '500px' }
+		};
+
+    	const component = renderer.create(<SummaryTable {...porps}  />)
+
+	    let tree = component.toJSON();
+
+	    expect(tree).toMatchSnapshot();
 	});
-
-	
-
-
-
-	
-
-
-
-
-
-
 });
