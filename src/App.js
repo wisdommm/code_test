@@ -143,13 +143,13 @@ class App extends Component {
       <div className="App">
         <Row>
           <Search
-            // defaultValue='000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214'
             placeholder="input search text"
             onSearch={this.search}
             style={{ width: showAddress ? 600 : 300 }}
           />
         </Row>
-        <Row style={{margin:'30px 0',textAlign: 'center'}}>
+        <Row style={{margin:'30px 0'}}>example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214</Row>
+        <Row style={{margin:'30px 0'}}>
           是否展示完整地址：
           <Switch
             checkedChildren="是"

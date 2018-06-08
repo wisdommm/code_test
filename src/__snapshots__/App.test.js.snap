@@ -39,7 +39,16 @@ ShallowWrapper {
           style={
                     Object {
                               "margin": "30px 0",
-                              "textAlign": "center",
+                            }
+          }
+>
+          example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214
+</Row>,
+        <Row
+          gutter={0}
+          style={
+                    Object {
+                              "margin": "30px 0",
                             }
           }
 >
@@ -168,6 +177,21 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "children": "example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
+          "gutter": 0,
+          "style": Object {
+            "margin": "30px 0",
+          },
+        },
+        "ref": null,
+        "rendered": "example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
           "children": Array [
             "是否展示完整地址：",
             <Switch
@@ -180,7 +204,6 @@ ShallowWrapper {
           "gutter": 0,
           "style": Object {
             "margin": "30px 0",
-            "textAlign": "center",
           },
         },
         "ref": null,
@@ -394,7 +417,16 @@ ShallowWrapper {
             style={
                         Object {
                                     "margin": "30px 0",
-                                    "textAlign": "center",
+                                  }
+            }
+>
+            example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214
+</Row>,
+          <Row
+            gutter={0}
+            style={
+                        Object {
+                                    "margin": "30px 0",
                                   }
             }
 >
@@ -523,6 +555,21 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "children": "example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
+            "gutter": 0,
+            "style": Object {
+              "margin": "30px 0",
+            },
+          },
+          "ref": null,
+          "rendered": "example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
             "children": Array [
               "是否展示完整地址：",
               <Switch
@@ -535,7 +582,6 @@ ShallowWrapper {
             "gutter": 0,
             "style": Object {
               "margin": "30px 0",
-              "textAlign": "center",
             },
           },
           "ref": null,
@@ -2277,7 +2323,16 @@ ShallowWrapper {
           style={
                     Object {
                               "margin": "30px 0",
-                              "textAlign": "center",
+                            }
+          }
+>
+          example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214
+</Row>,
+        <Row
+          gutter={0}
+          style={
+                    Object {
+                              "margin": "30px 0",
                             }
           }
 >
@@ -2406,6 +2461,21 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "children": "example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
+          "gutter": 0,
+          "style": Object {
+            "margin": "30px 0",
+          },
+        },
+        "ref": null,
+        "rendered": "example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
           "children": Array [
             "是否展示完整地址：",
             <Switch
@@ -2418,7 +2488,6 @@ ShallowWrapper {
           "gutter": 0,
           "style": Object {
             "margin": "30px 0",
-            "textAlign": "center",
           },
         },
         "ref": null,
@@ -2632,7 +2701,16 @@ ShallowWrapper {
             style={
                         Object {
                                     "margin": "30px 0",
-                                    "textAlign": "center",
+                                  }
+            }
+>
+            example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214
+</Row>,
+          <Row
+            gutter={0}
+            style={
+                        Object {
+                                    "margin": "30px 0",
                                   }
             }
 >
@@ -2761,6 +2839,21 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "children": "example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
+            "gutter": 0,
+            "style": Object {
+              "margin": "30px 0",
+            },
+          },
+          "ref": null,
+          "rendered": "example: 000000000000000001806a922d4d35a37ad9324c690f72d556c6445cb7a9c214",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
             "children": Array [
               "是否展示完整地址：",
               <Switch
@@ -2773,7 +2866,6 @@ ShallowWrapper {
             "gutter": 0,
             "style": Object {
               "margin": "30px 0",
-              "textAlign": "center",
             },
           },
           "ref": null,
